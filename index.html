@@ -1,58 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Erin | MY SG</title>
+<title>Erin92-1228 | Personal Website</title>
 
-<style>
-
-body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:#fff5f5;
-    color:#333;
-}
-
-.header{
-    background:#b30000;
-    color:white;
-    text-align:center;
-    padding:60px 20px;
-}
-
-.header h1{
-    font-size:50px;
-    margin:10px;
-}
-
-.card{
-    background:white;
-    width:80%;
-    max-width:800px;
-    margin:30px auto;
-    padding:30px;
-    border-radius:20px;
-    box-shadow:0 5px 20px #ddd;
-}
-
-h2{
-    color:#b30000;
-}
-
-
-.footer{
-    background:#b30000;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
-
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -60,93 +15,287 @@ h2{
 <body>
 
 
-<div class="header">
-
-<h1>Erin</h1>
-
-<p>🇲🇾 Malaysia / 🇸🇬 Singapore</p>
-
-<p>Accounting Professional | Global Wholesale Business</p>
-
+<!-- Language Button -->
+<div class="language">
+<button onclick="changeLang('zh')">中文</button>
+<button onclick="changeLang('en')">English</button>
 </div>
 
+
+
+<!-- Header -->
+
+<header>
+
+<img src="images/photo_2026-05-12_10-06-45.jpg" class="profile">
+
+<h1>
+<span class="zh">Erin92-1228</span>
+<span class="en">Erin92-1228</span>
+</h1>
+
+
+<p class="zh">
+马来西亚 · 新加坡生活方式<br>
+会计专业人士 | 医疗防护用品供应
+</p>
+
+
+<p class="en">
+Malaysia · Singapore Lifestyle<br>
+Accounting Professional | Medical Protective Products Supplier
+</p>
+
+
+</header>
+
+
+
+
+<!-- About -->
+
+<section>
+
+<h2>
+<span class="zh">关于我</span>
+<span class="en">About Me</span>
+</h2>
 
 
 <div class="card">
 
-<h2>About Me</h2>
 
-<p>
-Hello, I'm Erin.
+<p class="zh">
+
+你好，我是 Erin。<br><br>
+
+来自马来西亚，目前生活在新加坡。<br>
+
+毕业于 University of Washington，
+主修 Business Administration（工商管理）。
+
 </p>
 
-<p>
-I am Malaysian and currently living in Singapore.
+
+<p class="en">
+
+Hello, I am Erin.<br><br>
+
+I am from Malaysia and currently living in Singapore.<br>
+
+Graduated from University of Washington,
+majoring in Business Administration.
+
 </p>
+
 
 </div>
 
+</section>
+
+
+
+
+
+<!-- Career -->
+
+<section>
+
+<h2>
+
+<span class="zh">职业经历</span>
+
+<span class="en">Career</span>
+
+</h2>
 
 
 <div class="card">
 
-<h2>Career</h2>
 
-<p>
-📌 Accounting Professional
+<p class="zh">
+
+拥有多年商业运营经验。<br><br>
+
+主要涉及：<br>
+
+• 会计相关工作<br>
+• 全球批发业务<br>
+• 医疗防护用品供应
+
 </p>
 
-<p>
-📌 Owner of Global Wholesale Online Business
+
+
+<p class="en">
+
+Experienced in business operations.<br><br>
+
+Focus areas:<br>
+
+• Accounting<br>
+• Global Wholesale Business<br>
+• Medical Protective Products Supply
+
 </p>
+
 
 </div>
 
+</section>
+    <!-- Products -->
+
+<section>
+
+<h2>
+<span class="zh">医疗产品</span>
+<span class="en">Medical Products</span>
+</h2>
 
 
 <div class="card">
 
-<h2>Education</h2>
 
-<p>
-🎓 Completed university studies in the United States
+<p class="zh">
+
+主要供应一次性医疗防护用品，包括：
+
+<br><br>
+
+• 一次性防护用品<br>
+• 医疗消耗品<br>
+• 企业及机构采购供应
+
+<br><br>
+
+致力于提供可靠、安全、高质量的医疗产品。
+
 </p>
+
+
+
+<p class="en">
+
+We supply disposable medical protective products,
+including:
+
+<br><br>
+
+• Disposable protective supplies<br>
+• Medical consumables<br>
+• Business and institutional supply
+
+<br><br>
+
+Committed to providing reliable,
+safe and high-quality medical products.
+
+</p>
+
 
 </div>
 
 
+</section>
 
-<div class="card">
 
-<h2>Business Experience</h2>
+
+
+
+<!-- Lifestyle -->
+
+<section>
+
+
+<h2>
+
+<span class="zh">生活方式</span>
+
+<span class="en">Lifestyle</span>
+
+</h2>
+
+
+
+<div class="gallery">
+
+
+<img src="images/photo_2026-05-12_10-06-45.jpg">
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<!-- Contact -->
+
+
+<section>
+
+
+<h2>
+
+<span class="zh">联系我</span>
+
+<span class="en">Contact</span>
+
+
+</h2>
+
+
+
+<div class="card contact">
+
 
 <p>
-Previously operated a beauty salon business in Singapore.
+
+WhatsApp
+
+<br>
+
++65 8585 8432
+
 </p>
+
+
+<a href="https://wa.me/6585858432">
+
+Chat on WhatsApp
+
+</a>
+
 
 </div>
 
 
+</section>
 
-<div class="card">
 
-<h2>Contact</h2>
+
+
+
+<footer>
+
 
 <p>
-WhatsApp: 8585 8432
+
+© 2026 Erin92-1228
+
 </p>
 
-</div>
+
+</footer>
 
 
 
-<div class="footer">
 
-<p>
-© 2026 Erin
-</p>
-
-</div>
+<script src="script.js"></script>
 
 
 </body>
